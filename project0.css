@@ -1,0 +1,92 @@
+.header {
+    text-align: center;
+    font-size: 50px;
+    font-family: roboto;
+    color: white;
+}
+.upperMenu :hover {
+    background-color: rgb(46, 46, 45);
+}
+.upperMenu {
+    background-color: rgb(0, 0, 0);
+}
+body {
+    background:repeating-linear-gradient(45deg, #111212, #2d2e2e 20px, #111212 20px, #2d2e2e 40px); 
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background:none !important;
+        background-color: tomato !important;
+    }
+  }
+
+
+
+.explanation{
+    min-height: 200px;
+    line-height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+.explanation :hover{
+    background-color: rgb(46, 46, 45);
+}
+
+.explanation > #explanationText {
+    
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    text-align:center;
+}
+.itable {
+    width: 100%;
+    
+    color: white;
+    text-align: center;
+    
+    background-color: black;
+    
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    text-align:center;
+}
+.itable, .theader, .trow{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.theader {
+    font-weight: bold;
+}
+body ::selection{
+    background-color: Red;
+    color: Yellow;
+}
+.col-lg-4, .col-sm-6 > .pexp {
+    color:white;
+    font-size: 20px;
+    font-family: monospace;
+}
+.photos:hover{
+    display:none;
+}
+.hovertext1, .hovertext2, .hovertext3 {
+    display:none;
+    font-size: 15px;
+    color: tomato;
+    text-align: center;
+}
+.photos1-container:hover img, .photos2-container:hover img, .photos3-container:hover img {
+    display: none;
+}
+.photos1-container:hover .hovertext1, .photos2-container:hover .hovertext2, .photos3-container:hover .hovertext3{
+    display: block;
+}
+.pexp {
+    text-align:center;
+}
+
+
+
